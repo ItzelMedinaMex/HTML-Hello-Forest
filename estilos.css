@@ -1,0 +1,45 @@
+*{
+    /* los estilos que se agregan acá aplican para todo */
+    padding: 0;
+    /* elimina los rellenos de la página */
+    margin: 0;
+    /* elimina los margenes predeterminados */
+    box-sizing: border-box;
+    /* el ancho y el alto de los elementos van a incluir dicho padding y margin */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.main-image{
+    background: url(Bosque.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem; /* 1 rem son aproximadamente 16 pixeles */
+
+}
+.main-image h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    
+}
+.main-image p{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.main-image button{
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
